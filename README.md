@@ -1,24 +1,101 @@
-# Social-Book-Tag
-In this coursework student needs to implement a social media platform, which supports basic version for community integration. In this Social Tag-Book solution, users need to be able to;
-* Create their own logins, where those are acting as their profiles. Which provides their information and specialties, interested areas.
-* Registered members' needs to be able to send follow requests to others and other needs to be able to accept those follow requests.
-* Members can add in to different media channels like History, Politics, Science, etc.
-* Based on their interests, they can add in to channels, and then they can publish their
-posts, about new updates on those areas.
-* Other members of those channels would be able to see those and they may be able
-to comment on those and also rate those publications, and also needs to be able to
-put reactions on those posts.
-* Based on the comments, others need to be able to put reply comments.
-* In every user profile, they needs to be able to see their ranks based on the ratings
-that they are getting based on their posts that are publishing in different channels.
-* When a member got certain number of points, they are entitled to a Premier member,
-where he/she may be able to create their own channels rather than pre-defined one under their ownership. For those premier channels, they are having an administration power to enroll other members, those are acting like closed channels.
-* As per administration panel, users system usage history, engagements, offensive posts, etc, needs to be able to show in a report.
+# Visual Programming using C# — Project README
 
-Programming Language used,
+> This README is adapted from the provided assignment report and showcases the core artifacts — diagrams, UI screenshots, testing notes, and the Gantt chart — in a GitHub-friendly format.
 
-C#.NET
+## Overview
 
-Application Tool used,
+This repository documents a **Visual Programming using C#/.NET** assignment. It includes:
+- A short overview of the .NET platform
+- System analysis & design artifacts (UML, ERD, DFD, wireframes)
+- Implementation UI screenshots
+- Testing notes and conclusions
+- Project timeline (Gantt)
 
-Visual Studio
+## .NET at a Glance
+
+- **Implementations:** .NET (cross‑platform), .NET Framework (Windows), Xamarin/Mono (mobile)
+- **Key components:** **CLR** (execution engine) and **Class Library** (types & APIs)
+- **Benefits:** unified type system, managed memory, language interoperability, simpler deployment
+
+> For full context, see the original report PDF in this repository.
+
+---
+
+## System Analysis & Design
+
+### Use Case Diagram
+![Use Case](assets/use_case.png)
+
+### Class Diagram
+![Class Diagram](assets/class_diagram.png)
+
+### Sequence Diagram
+![Sequence Diagram](assets/sequence_diagram.png)
+
+### Collaboration Diagram
+![Collaboration Diagram](assets/collaboration_diagram.png)
+
+### ER Diagram
+![ER Diagram](assets/er_diagram.png)
+
+### DFD (Level 02)
+![DFD Level 02](assets/dfd_level2.png)
+
+### Wireframe
+![Wireframe](assets/wireframe.png)
+
+---
+
+## Implementation (C#/.NET Forms)
+
+Below are representative UI screenshots from the implemented system.
+
+![Implementation 1](assets/implementation_1.png)
+![Implementation 2](assets/implementation_2.png)
+![Implementation 3](assets/implementation_3.png)
+![Implementation 4](assets/implementation_4.png)
+![Implementation 5](assets/implementation_5.png)
+
+---
+
+## Testing Summary
+
+The project followed a standard multi‑level testing approach:
+
+- **Unit Testing:** Verified module logic and boundaries (white‑box focus).
+- **Integration Testing:** Exercised interfaces between modules to ensure correct collaboration.
+- **System Testing:** Validated end‑to‑end behavior against the specified requirements.
+
+![Testing Context Page](assets/testing.png)
+
+---
+
+## Project Timeline
+
+### Gantt Chart
+![Gantt Chart](assets/gantt_chart.png)
+
+---
+
+## References
+
+- Microsoft Docs — .NET Overview  
+- Atlassian — Testing Types & Practices  
+- Figma — Wireframing resources  
+- Research on Global Software Development trends
+
+> See the original PDF for the complete reference details.
+
+---
+
+## How to Use
+
+- Place this `README.md` at the root of your GitHub repository.
+- Keep the `assets/` folder alongside it for images to render on GitHub.
+- Optionally add your C# solution (e.g., `*.sln`, `*.csproj`, `Form*.cs`) and any exported diagrams as source files.
+
+---
+
+## Acknowledgments
+
+Thanks to the supervising lecturer, peers, and everyone who contributed feedback during the assignment process.
